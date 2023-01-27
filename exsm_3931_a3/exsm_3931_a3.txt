@@ -1,0 +1,29 @@
+Customer Pseudocode
+snacks = {snack1.chips, snack2.candy, snack3.chocolate bar}
+vending_machine_price = {snack1: 1.50, snack2: 1.00, snack3: 1.25}
+money = 3.00
+
+select item
+insert money
+if money is not enough {
+   then insert more money
+}
+item dispensed
+take item
+END
+
+
+Owner Pseudocode
+vending_machine_items = {chips, candy, chocolate bars}
+vending_machine_inventory = {chips: 10, candy: 5, chocolate bars: 15}
+
+Stock vending machine 
+Fill Change Dispenser
+if inventory low, or inventory is zero{
+    then restock item in vending machine
+}
+Check change available
+If change is low {
+    put more change in dispenser
+}
+End of the month collect money from vending machine 
